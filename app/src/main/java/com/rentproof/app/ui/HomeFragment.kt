@@ -23,6 +23,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.tabs.TabLayout
 import com.rentproof.app.R
 import com.rentproof.app.data.House
+import com.rentproof.app.data.Photo
 import com.rentproof.app.data.Record
 import com.rentproof.app.data.RecordStats
 import com.rentproof.app.data.RecordType

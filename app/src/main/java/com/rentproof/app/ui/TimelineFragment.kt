@@ -6,12 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.rentproof.app.R
 import com.rentproof.app.data.RecordType
 import com.rentproof.app.databinding.FragmentTimelineBinding
+import kotlinx.coroutines.launch
 
 class TimelineFragment : Fragment() {
     
