@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">租房存证</string>
+    <string name="home">存证</string>
+    <string name="timeline">时间线</string>
+    <string name="helper">维权</string>
+</resources>
