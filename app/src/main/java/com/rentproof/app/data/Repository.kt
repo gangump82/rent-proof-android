@@ -16,7 +16,8 @@ import java.util.*
 
 class RecordRepository(private val context: Context) {
     
-    private val database = RentProofApp.database ?: AppDatabase.getDatabase(context)
+    private val database = RentProofApp.database 
+        ?: AppDatabase.getDatabase(context.applicationContext as android.app.Application)
     private val houseDao = database.houseDao()
     private val recordDao = database.recordDao()
     private val photoDao = database.photoDao()
