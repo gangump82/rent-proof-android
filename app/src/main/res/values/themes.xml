@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.RentProof" parent="Theme.Material3.Light.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryDark">@color/primary_dark</item>
-        <item name="colorAccent">@color/accent</item>
-        <item name="android:statusBarColor">@color/primary</item>
-        <item name="android:navigationBarColor">@color/background</item>
+    <style name="Theme.RentProof" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1677FF</item>
+        <item name="android:statusBarColor">#1677FF</item>
     </style>
-
 </resources>
