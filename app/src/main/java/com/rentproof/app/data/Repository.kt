@@ -2,11 +2,9 @@ package com.rentproof.app.data
 
 import android.content.Context
 import android.graphics.*
-import android.location.Geocoder
 import android.net.Uri
 import android.os.Environment
 import androidx.core.content.FileProvider
-import com.rentproof.app.RentProofApp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -16,8 +14,7 @@ import java.util.*
 
 class RecordRepository(private val context: Context) {
     
-    private val database = RentProofApp.database 
-        ?: AppDatabase.getDatabase(context.applicationContext as android.app.Application)
+    private val database = AppDatabase.getDatabase(context.applicationContext as android.app.Application)
     private val houseDao = database.houseDao()
     private val recordDao = database.recordDao()
     private val photoDao = database.photoDao()
